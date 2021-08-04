@@ -3,4 +3,49 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    
 }
+
+/* header*/
+
+header{
+  display:flex;
+  justify-content: space-between;
+
+}
+#TitreSite{
+  height: 50px;
+  width: 100px;
+  display:flex;
+}
+
+/*nav*/
+
+}a{
+  color:gray;
+
+}
+
+  a:hover{
+    color:#0065FC
+
+  }
+
+ nav ul{
+   display: flex;
+   font-size: 1.3em;
+   list-style-type: none;
+   
+   
+   
+  }
+ li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-right: 15px;
+    font-weight: bold;
+
+    
+
+  }
