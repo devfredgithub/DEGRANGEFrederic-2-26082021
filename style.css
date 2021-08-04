@@ -21,12 +21,12 @@ header{
 
 /*nav*/
 
-}a{
+nav ul li a{
   color:gray;
 
 }
 
-  a:hover{
+ nav ul li a:hover{
     color:#0065FC
 
   }
@@ -39,7 +39,7 @@ header{
    
    
   }
- li{
+ nav ul li{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
