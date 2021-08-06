@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    padding-left: 20px;
     
 }
 
@@ -11,23 +12,29 @@ body{
 header{
   display:flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  
 
 }
-#TitreSite{
-  height: 50px;
-  width: 100px;
-  display:flex;
+#TitreSite img{
+  width:150px;
 }
 
 /*nav*/
 
 nav ul li a{
   color:gray;
+  text-decoration: none;
 
 }
 
  nav ul li a:hover{
-    color:#0065FC
+    color:#0065FC;
+    border: 1px 0px 0px 0px ;
+    border-color: #0065FC;
+    border-style: solid;
+    padding: 20px;
+
 
   }
 
@@ -40,12 +47,15 @@ nav ul li a{
    
   }
  nav ul li{
-    display: flex;
+    
     list-style-type: none;
-    justify-content: space-around;
     margin-right: 15px;
     font-weight: bold;
 
     
 
+  }
+
+  section{
+    
   }
