@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -17,7 +17,7 @@ header{
 
 }
 #TitreSite img{
-  width:150px;
+  width:120px;
 }
 
 /*nav*/
@@ -30,12 +30,9 @@ nav ul li a{
 
  nav ul li a:hover{
     color:#0065FC;
-    border: 1px 0px 0px 0px ;
-    border-color: #0065FC;
-    border-style: solid;
-    padding: 20px;
-
-
+    border-top:#0065FC solid 3px;
+    padding-top: 20px;
+  
   }
 
  nav ul{
@@ -56,6 +53,25 @@ nav ul li a{
 
   }
 
-  section{
-    
+ #inscription { 
+   color: #0065FC;
+
   }
+
+
+/*section hergement*/
+div{
+  display: block;
+ }
+  #BarreDeRecherche{
+    color: red;
+
+  }
+
+  #recherche{
+    color: blue;
+  }
+
+ p div ul #LogosMaps{
+   border: 1px solid black;
+ }
