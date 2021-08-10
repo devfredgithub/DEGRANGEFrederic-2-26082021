@@ -1,6 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
+ 
 body{
     font-family: 'Raleway', sans-serif;
     padding-left: 20px;
@@ -23,7 +23,7 @@ header{
 /*nav*/
 
 nav ul li a{
-  color:gray;
+  color:#5D6D7E;
   text-decoration: none;
 
 }
@@ -60,18 +60,35 @@ nav ul li a{
 
 
 /*section hergement*/
+p1
+{font-size: 20px;
+  
+}
+
+/*barre de recherche*/
+
+
 div{
-  display: block;
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
  }
-  #BarreDeRecherche{
-    color: red;
+
+  .Recherche{
+
+  
+
 
   }
 
-  #recherche{
+  .Arena{
     color: blue;
+
+
+
   }
 
- p div ul #LogosMaps{
+  .IconeMaps{
    border: 1px solid black;
  }
+
