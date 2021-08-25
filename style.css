@@ -3,11 +3,12 @@
  
 body{
     font-family: 'Raleway', sans-serif;
+    padding: 20px 30px;
    
     
 }
 
-/* header*/
+/*****************>>> header********************/
 
 header{
   display:flex;
@@ -20,11 +21,12 @@ header{
 
 }
 #TitreSite img{
-  width:120px;
+  width: 200px;px;
   
 }
+/***************header>>>****************************/
 
-/*nav*/
+/****************>>>barre de navigation******************/
 nav{
   display: flex;
   align-items: center;
@@ -39,17 +41,17 @@ ul {
 nav ul li a{
   color:#5D6D7E;
   text-decoration: none;
-  padding:20px 10px 20px 0;
+  padding:20px 25px 20px 0;
   width: 50%;
 
 }
+nav ul li a:hover{
+border-top: solid 3px #0065FC ;
+padding-top: 40px;
+}
 
- /*nav ul li a:hover{
-  
-    color:#0065FC;
-    border-top:#0065FC solid 3px;
-    padding-top: 20px;
-    */
+
+    
   
   
 
@@ -64,6 +66,7 @@ nav ul li a{
     
     list-style-type: none;
     font-weight: bold;
+    font-size: 1.5em;
 
     
 
@@ -72,37 +75,137 @@ nav ul li a{
  .inscription { 
    color: #0065FC;
    text-decoration: none;
+   font-size: 1.5em;
 
   }
 
 
-/*section hergement*/
 
 
-/*barre de recherche*/
+
+/*****************barre de navigation>>>************************/
+p{
+  font-weight: bold;
+  color: #5D6D7E;
+}
+
+/****************>>>barre de recherche***************/
+.blocRecherche{
+display: flex;
+margin:10px 0 20px;
+height: 45px;
+}
+
+.fa-map-marker-alt{
+  display: block;
+  border: solid 2px #f2f2f2;
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 10px 0 0 10px;
+}
+
+.zoneRecherche{
+border:#f2f2f2 solid 3px ;
+padding: 10px ;
+font-weight: bold;
+color: black;
+font-size: 20px;
+font-family: 'Raleway', sans-serif;
+}
+
+.boutonRecherche{
+  color: #ffffff;
+  background-color:#0065FC ;
+  border:none ;
+  border-radius:0 10px 10px 0 ;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  width: 200px;
+  font-size: 1.3em;
+  
+
+  
+  
+}
 
 
-/*div{
+
+
+
+/****************barre de recherche>>>*************************/
+
+
+
+/*********************>>>filtres ****************************/
+
+section p{
   display: flex;
-  padding: 20px;
-  justify-content: flex-start;
- }
-*/
-  .Recherche{
+}
+
+.lesfiltres{
+  display: flex;
+  font-weight: bold;
+
+  
+}
+.filtres{
+  padding: 10px 50px;;
+  
+}
+
+.Economique {
+
+  padding: 10px 20px;
+  border: solid 4px #f2f2f2;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.fas fa-money-bill-wave{
+  border-radius: 10px;
+  background-color: #0065FC;
+  width: ;: auto;
+}
+
+.Familial{
+  padding:10px 20px ;
+  border: solid 4px #f2f2f2;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.Romantique{
+  padding: 10px 20px;
+  border: solid 4px #f2f2f2;
+  border-radius: 20px;
+  margin-right: 10px;
+  
+}
+
+
+.AnimauxAutorisés{
+  padding: 10px 20px;
+  border: solid 4px #f2f2f2;
+  border-radius: 20px;
+}
+
+/********************filtres>>>******************************/
+  
+/************>>>hebergementMarseille*************/
+
+.HébergementsMarseille{
+  display: block;
+  padding: 5px 10px;
+  width: 50%;
+  height: 60px;
+  background-color:#B9C5D2;
+  border-radius: 10px;
+
+}
+
+/************hebergementMarseille>>>************/
 
   
 
 
-  }
-
-  .Arena{
-    color: blue;
-
-
-
-  }
-
-  .IconeMaps{
-   border: 1px solid black;
- }
 

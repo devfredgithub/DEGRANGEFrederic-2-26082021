@@ -5,13 +5,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="MediaQueries.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <title>Reservia</title>
 </head>
 <body>
-
+    
     <header>
         <div id="TitreSite">
             <img src="images/logo/Reservia@3x.png" alt="LogoReservia">
@@ -28,28 +28,44 @@
 
         </nav>
     </header>
-    <!--<section>
+    <section>
         <h1>Trouver votre hébergement pour des vacances de rêve </h1>
         <p>En plein centre ville ou en pleine nature</p>
-        <form action="">
-            <p>
-                <div class="BarreRecherche">
-                    
-                     <div class="IconeMaps"></div><i class="fa-solid fa-location-dot" id="LogosMpas"></i>
-                    
-                     <div class="Arena"> <input type="text" name="recherche" id="BarreDeRecherche" value="marseille,FRANCE"></div>
-                
-                     <label for="Recherche" class="Recherche"> recherche</label>
+        
+        <form method="POST" class="blocRecherche">
+            <i class="fas fa-map-marker-alt"></i>
+         <input type="search"value="Marseille,FRANCE" class="zoneRecherche">
+         <button class="boutonRecherche">Rechercher</button>
+         </form>
+    </section>
+    <br>
 
-                    
-                </div>
-            </p>
-        </form>
-    </section>-->
+    <section>
+        <div class="lesfiltres">
+            <div class="filtres">filtres</div>
+            <div class="Economique"><i class="fas fa-money-bill-wave"></i>Economique</div>
+            <div class="Familial"><i class="fas fa-child"></i>Familial</div>
+            <div class="Romantique"><i class="fas fa-heart"></i>Romantique</div>
+            <div class="AnimauxAutorisés"><i class="fas fa-dog"></i>
+                Animaux autorisés</div>
+        </div>
+    </section>
+
+    
+    
+    <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
     
     <!-- le coprs de page-->
 
-    <main></main>
+    <main>
+        <section class="HébergementsMarseille">Hebergements à Marseille
+
+        </section>
+        <section class="Les plus populaires">les plus populaires
+
+        </section>
+        <section class="Activités à Marseille">Activités à Marseille</section>
+    </main>
 
     <!--le bas de page-->
 
