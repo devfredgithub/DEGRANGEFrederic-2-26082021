@@ -3,7 +3,7 @@
  
 body{
     font-family: 'Raleway', sans-serif;
-    padding: 20px 30px;
+  margin: 0 auto;
    
     
 }
@@ -15,13 +15,10 @@ header{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding:8px 12px;
   
-  
-
 }
 #TitreSite img{
-  width: 200px;px;
+  width: 200px;
   
 }
 /***************header>>>****************************/
@@ -33,42 +30,30 @@ nav{
   
 }
 ul {
-  width: 100%;
-  padding: 0%;
-  margin: 0%;
+display: flex;
+padding: 2em;
 }
 
 nav ul li a{
   color:#5D6D7E;
   text-decoration: none;
-  padding:20px 25px 20px 0;
-  width: 50%;
-
+  padding:20px;
 }
+
 nav ul li a:hover{
-border-top: solid 3px #0065FC ;
-padding-top: 40px;
+  border-top: solid 3px #0065FC ;
 }
-
 
     
-  
-  
-
  nav ul{
    display: flex;
-  
-   
-   
-   
   }
+
  nav ul li{
     
     list-style-type: none;
     font-weight: bold;
     font-size: 1.5em;
-
-    
 
   }
 
@@ -76,9 +61,7 @@ padding-top: 40px;
    color: #0065FC;
    text-decoration: none;
    font-size: 1.5em;
-
   }
-
 
 
 
@@ -122,11 +105,14 @@ font-family: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
   width: 200px;
   font-size: 1.3em;
-  
+   
+}
 
-  
+.boutonRechercheIcone{
+display: none;
   
 }
+
 
 
 
@@ -140,72 +126,182 @@ font-family: 'Raleway', sans-serif;
 
 section p{
   display: flex;
+  
 }
 
 .lesfiltres{
-  display: flex;
+  display:inline-flex;
+  flex-wrap: wrap;
   font-weight: bold;
+
+  
+  
 
   
 }
 .filtres{
-  padding: 10px 50px;;
-  
+  padding: 10px 50px;
+
+
 }
 
 .Economique {
 
-  padding: 10px 20px;
-  border: solid 4px #f2f2f2;
-  border-radius: 20px;
-  margin-right: 10px;
+  border: solid 3px #f2f2f2;
+  border-radius: 30px;
+  padding-right: 15px;
 }
 
-.fas fa-money-bill-wave{
-  border-radius: 10px;
-  background-color: #0065FC;
-  width: ;: auto;
+.fa-money-bill-wave{    /*icone billet*/
+  color: #0065FC;
+  background-color: #f2f2f2;
+  border: #f2f2f2 solid 3px;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 20px; 
 }
 
 .Familial{
-  padding:10px 20px ;
-  border: solid 4px #f2f2f2;
-  border-radius: 20px;
+
+  border: solid 3px #f2f2f2;
+  border-radius: 30px;
+  padding-right: 15px;
+}
+
+.fa-child{       /*icone famille*/
+  color: #0065FC;
+  background-color: #f2f2f2;
+  border: #f2f2f2 solid 3px;
+  padding: 15px;
   margin-right: 10px;
+  border-radius: 20px;
+
 }
 
 .Romantique{
-  padding: 10px 20px;
-  border: solid 4px #f2f2f2;
-  border-radius: 20px;
-  margin-right: 10px;
+  border: solid 3px #f2f2f2;
+  border-radius: 30px;
+  padding-right: 15px;
   
 }
+
+.fa-heart{        /*icone romantique*/ 
+  color: #0065FC;
+  background-color: #f2f2f2;
+  border: #f2f2f2 solid 3px;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 20px;
+
+}
+
+
 
 
 .AnimauxAutorisés{
-  padding: 10px 20px;
-  border: solid 4px #f2f2f2;
-  border-radius: 20px;
+  border: solid 3px #f2f2f2;
+  padding-right: 15px;
+  border-radius: 30px;
 }
+
+.fa-dog{
+  color: #0065FC;
+  background-color: #f2f2f2;
+  border: #f2f2f2 solid 3px;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 20px;
+
+}
+
 
 /********************filtres>>>******************************/
-  
-/************>>>hebergementMarseille*************/
+ 
 
-.HébergementsMarseille{
+
+/**>>>infos**/
+  .fa-info{
+    border: solid 4px #f2f2f2;
+    padding: 8px 10px;
+    color: #0065FC;
+    border-radius: 200px;
+    margin-right: 5px;
+  }
+
+  /**infos>>**/
+
+  /**>>>>main****/
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: bolder;
+  }
+  
+
+
+
+  /****main>>*****/
+
+
+/************>>>hebergements*************/
+
+.Hébergements{
   display: block;
-  padding: 5px 10px;
-  width: 50%;
-  height: 60px;
-  background-color:#B9C5D2;
-  border-radius: 10px;
+  padding: 20px;
+  width: 70%;
+  height: 400px;
+  background-color:#f2f2f2;
+  border-radius: 20px;
 
 }
 
-/************hebergementMarseille>>>************/
+.box{
+  display:flex; 
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  width: 40%;
+  height: auto;
+
+}
+#nomhebergement{
+  font-size: 1.2em;
+  font-weight: bolder
+  ;
+  
+  
+}
+
+.chambre1 img{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.starbox{
+  display: flex;
+}
+
+#starbleu{
+  color: #0065FC;
+
+}
+
+#starblanc{
+  color: #b7babd;
+}
+
+/************populaires>>>************/
 
   
-
+.Populaires{
+  margin-left: 20px;
+padding: 20px;
+width:20%;
+height: 400px;
+background-color: #efefef;
+border-radius: 20px;
+}
 
 
