@@ -4,6 +4,7 @@
 body{
     font-family: 'Raleway', sans-serif;
   margin: 0 auto;
+  max-width: 1500px;
    
     
 }
@@ -18,7 +19,7 @@ header{
   
 }
 #TitreSite img{
-  width: 200px;
+  width: 120px;
   
 }
 /***************header>>>****************************/
@@ -53,7 +54,7 @@ nav ul li a:hover{
     
     list-style-type: none;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.3em;
 
   }
 
@@ -250,7 +251,7 @@ section p{
   flex-wrap: wrap;
   padding: 20px;
   width: 60%;
-  height: auto;
+  height: 600px;
   background-color:#f2f2f2;
   border-radius: 20px;
 
@@ -260,7 +261,7 @@ section p{
   padding-bottom: 10px;
 }
 
-#box{
+.box{
   display:flex; 
   flex-direction: column;
   flex-wrap: wrap;
@@ -281,8 +282,14 @@ section p{
 
 }
 
+.zoneTexte{
+  display: block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
 
-#nomhebergement{
+
+.nomhebergement{
   font-size: 1.2em;
   font-weight: bolder
   ;
@@ -292,22 +299,31 @@ section p{
 
 
 .chambre1 img{
-  width: 100%;
+  object-fit: cover;
+  width: 98%;
   height: 120px;
   border-radius: 10px 10px 0 0;
+  margin: 2px;
 }
 
 .starbox{
   display: flex;
 }
 
-#starbleu{
+.starbleu{
   color: #0065FC;
 
 }
 
-#starblanc{
+.starblanc{
   color: #b7babd;
+}
+
+.afficher{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+
 }
 
 /************populaires>>>************/
@@ -317,25 +333,65 @@ section p{
   margin-left: 20px;
 padding: 20px;
 width: 30%;
-height: auto;
+height: 600px;
 background-color: #efefef;
 border-radius: 20px;
 }
 
+.titreEtLogo{
+  display: flex;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
 
-#box2{
+.Pop{
+  width: 80%;
+  margin-right: 30px;
+}
+
+
+.box2{
+  display: flex;
   border: 1px solid white;
   border-radius: 10px;
   background-color: white;
   width: 100%;
   height: 180 px;
   box-shadow:6px 6px 6px rgb(0 0 0/ 25%);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+
 
 }
 
 .chambre2 img{
-  width: 40%;
+  margin: 2px;
+  display: block;
+  object-fit: cover;
+  width: 200px; ;
   height: 120px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 0 0 10px;
 }
+
+#box2 .boîteTexte{
+  width: 60%;
+
+}
+
+/*********>>>>>>>activitésMarseille********/
+
+.Activités{
+  width: 100%;
+  height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*********activitéMarseille>>>>>>>>>*******/
