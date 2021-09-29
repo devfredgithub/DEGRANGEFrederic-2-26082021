@@ -233,7 +233,6 @@ margin-left: 15px;
   flex-wrap: wrap;
   padding: 20px;
   width: 60%;
-  height: 590px;
   background-color:#f2f2f2;
   border-radius: 20px;
 
@@ -244,14 +243,13 @@ margin-left: 15px;
 }
 
 .box{
-  display:flex; 
   flex-direction: column;
   flex-wrap: wrap;
   border: 1px solid white;
   border-radius: 10px;
   background-color: white;
   width: 30%;
-  height: 230px;
+  height: 250px;
   box-shadow:6px 6px 6px rgb(0 0 0/ 25%);
   margin-bottom: 10px;
 
@@ -269,16 +267,6 @@ margin-left: 15px;
   margin-left: 10px;
   margin-top: 10px;
 }
-
-
-.nomhebergement{
-  font-size: 1.2em;
-  font-weight: bolder
-  ;
-  
-  
-}
-
 
 .chambre1 img{
   object-fit: cover;
@@ -317,15 +305,14 @@ margin-left: 15px;
   margin-left: 20px;
 padding: 40px;
 width: 30%;
-height: 550px;
 background-color: #efefef;
 border-radius: 20px;
 }
 
 .titreEtLogo{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  font-size: 24px;
   margin-bottom: 30px;
 }
 
@@ -340,7 +327,6 @@ border-radius: 20px;
   border: 1px solid white;
   border-radius: 10px;
   background-color: white;
-  width: 100%;
   height: 155px;
   box-shadow:6px 6px 6px rgb(0 0 0/ 25%);
   margin-bottom: 30px;
@@ -358,52 +344,88 @@ border-radius: 20px;
 }
 
 .box2 .boiteTexte{
-  width: 60%;
-  margin: 10px;
+  display: flex;
+  padding: 15px;
+justify-content: space-between;
+flex-direction: column;
+
 
 }
+.nomhebergement h2{
+  margin: 0;
+}
 
-.box2 .starbox{
-  display: flex;
-  align-items: flex-end;
-  height: 80px;
+.nomhebergement p{
+  margin-top: 5px;
+}
+h3{
+  margin-top: 0;
+}
 
+.fa-chart-line{
+  font-size: 30px;
 }
 
 /*********>>>>>>>activitésMarseille********/
 
 .Activites{
   width: 100%;
-  height: 800px;
+  height: 150px;
 }
 
 #AMarseille{
   display: flex;
+  justify-content: space-around;
   width: 100%;
-  height: 500px;
 }
 
 .box3{
+  width: 320px;
+  height: 190px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow:6px 6px 6px rgb(0 0 0/ 25%);
+  margin-bottom: 20px;
 
-  width: 200px;
+}
 
+.box3M{
+  width: 320px;
+  height: 400px;
+  box-shadow:6px 6px 6px rgb(0 0 0/ 25%);
+  border-radius: 20px 20px 20px 20px;
+
+}
+
+.activitesMax img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius:20px 20px 0 0 ;
 }
 
 .activites img{
   border: 1px solid white;
   border-radius: 20px 20px 0 0;
   background-color: white;
-  width: 180px;
+  width: 100%;
   height: 150px;
-  margin-bottom: 30px;
   object-fit: cover;
 }
 
 .activitesM{
-  margin-bottom: 5px;
-  margin-top: -30px;
-  
+  padding: 5px 0 5px 40px;
+  font-size: 1.3em;
+  font-weight: 800;
+
 }
+
+.pour2box{
+  display: block;
+  justify-content: space-between;
+}
+
+
+
  
 
 
