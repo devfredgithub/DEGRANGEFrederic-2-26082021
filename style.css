@@ -4,35 +4,31 @@
 body{
     font-family: 'Raleway', sans-serif;
   margin: 0 auto;
-  max-width: 1500px;
-   
-    
+  max-width: 1400px;    
 }
 
 /*****************>>> header********************/
-
 header{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
+
 #TitreSite img{
-  width: 120px;
-  
+  width: 120px; 
 }
 /***************header>>>****************************/
 
 /****************>>>barre de navigation******************/
 nav{
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
 }
+
 ul {
-display: flex;
-padding: 2em;
+  display: flex;
+  padding: 2em;
 }
 
 nav ul li a{
@@ -44,40 +40,30 @@ nav ul li a{
 nav ul li a:hover{
   border-top: solid 3px #0065FC ;
 }
-
     
- nav ul{
-   display: flex;
-  }
+nav ul{
+  display: flex;
+}
 
- nav ul li{
-    
-    list-style-type: none;
-    font-weight: bold;
+nav ul li{ 
+  list-style-type: none;
+  font-weight: bold;
+}
 
-
-  }
-
- .inscription { 
-   color: #0065FC;
-   text-decoration: none;
-  
-  }
-
-
-
-
+.inscription { 
+  color: #0065FC;
+  text-decoration: none;  
+}
 /*****************barre de navigation>>>************************/
 p{
   font-weight: bold;
   color: #5D6D7E;
 }
-
 /****************>>>barre de recherche***************/
 .blocRecherche{
-display: flex;
-margin:10px 0 20px;
-height: 45px;
+  display: flex;
+  margin:10px 0 20px;
+  height: 45px;
 }
 
 .fa-map-marker-alt{
@@ -89,12 +75,12 @@ height: 45px;
 }
 
 .zoneRecherche{
-border:#f2f2f2 solid 3px ;
-padding: 10px ;
-font-weight: bold;
-color: black;
-font-size: 20px;
-font-family: 'Raleway', sans-serif;
+  border:#f2f2f2 solid 3px ;
+  padding: 10px ;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .boutonRecherche{
@@ -105,102 +91,77 @@ font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
   width: 200px;
-  font-size: 1.3em;
-   
+  font-size: 1.3em;   
 }
-
 .boutonRechercheIcone{
-display: none;
-  
+  display: none; 
 }
-
-
-
-
-
-
 /****************barre de recherche>>>*************************/
-
-
 
 /*********************>>>filtres ****************************/
 
 section p{
-  display: flex;
-  
+ display: flex;
 }
 
 .lesfiltres{
   display:inline-flex;
   align-items: center;
   flex-wrap: wrap;
-  font-weight: bold;
-
-  
-  
-
-  
+  font-weight: bold;  
 }
+
 .filtres{
   font-size: 20px;
   padding-right: 15px;
 }
 
-
-
-.fa-money-bill-wave{    /*icone billet*/
-  color: #0065FC;
-  background-color: #f2f2f2;
-  border: #f2f2f2 solid 3px;
-  padding: 15px;
-  margin-right: 10px;
-  border-radius: 20px; 
-}
-
 .filtresBttn{
-margin-left: 15px;
+  display: flex;
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+  margin-left: 15px;
   border: solid 3px #f2f2f2;
   border-radius: 30px;
   padding-right: 15px;
+  color: #0065FC;
+  align-items: center;
 }
 
-.fa-child{       /*icone famille*/
-  color: #0065FC;
+.fa-money-bill-wave{/*icone billet*/
   background-color: #f2f2f2;
   border: #f2f2f2 solid 3px;
   padding: 15px;
   margin-right: 10px;
-  border-radius: 20px;
-
+  border-radius: 30px; 
 }
 
-
-
-.fa-heart{        /*icone romantique*/ 
-  color: #0065FC;
+.fa-child{/*icone famille*/
   background-color: #f2f2f2;
   border: #f2f2f2 solid 3px;
   padding: 15px;
   margin-right: 10px;
-  border-radius: 20px;
-
+  border-radius: 30px;
 }
 
-
-.fa-dog{
-  color: #0065FC;
+.fa-heart{/*icone romantique*/ 
   background-color: #f2f2f2;
   border: #f2f2f2 solid 3px;
   padding: 15px;
   margin-right: 10px;
-  border-radius: 20px;
-
+  border-radius: 30px;
 }
 
-
+.fa-dog{/*icone chien*/
+  background-color: #f2f2f2;
+  border: #f2f2f2 solid 3px;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
 /********************filtres>>>******************************/
  
-
 
 /**>>>infos**/
   .fa-info{
@@ -210,32 +171,24 @@ margin-left: 15px;
     border-radius: 200px;
     margin-right: 5px;
   }
+/**infos>>**/
 
-  /**infos>>**/
-
-  /**>>>>main****/
+/**>>>>main****/
   main{
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     font-weight: bolder;
   }
-  
-
-
-
-  /****main>>*****/
+/****main>>*****/
 
 
 /************>>>hebergements*************/
-
 .Hebergements{
   flex-wrap: wrap;
   padding: 20px;
   width: 60%;
   background-color:#f2f2f2;
   border-radius: 20px;
-
 }
 
 .titreHebergement{
@@ -259,7 +212,6 @@ margin-left: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .zoneTexte{
@@ -282,7 +234,6 @@ margin-left: 15px;
 
 .starbleu{
   color: #0065FC;
-
 }
 
 .starblanc{
@@ -295,18 +246,15 @@ margin-left: 15px;
   text-decoration: none;
   color: black;
   font-weight: bolder;
-
 }
 
-/************populaires>>>************/
-
-  
+/************populaires>>>************/ 
 .Populaires{
   margin-left: 20px;
-padding: 40px;
-width: 30%;
-background-color: #efefef;
-border-radius: 20px;
+  padding: 20px;
+  width: 30%;
+  background-color: #efefef;
+  border-radius: 20px;
 }
 
 .titreEtLogo{
@@ -321,7 +269,6 @@ border-radius: 20px;
   margin-right: 30px;
 }
 
-
 .box2{
   display: flex;
   border: 1px solid white;
@@ -330,8 +277,6 @@ border-radius: 20px;
   height: 155px;
   box-shadow:6px 6px 6px rgb(0 0 0/ 25%);
   margin-bottom: 30px;
-
-
 }
 
 .chambre2 img{
@@ -346,11 +291,10 @@ border-radius: 20px;
 .box2 .boiteTexte{
   display: flex;
   padding: 15px;
-justify-content: space-between;
-flex-direction: column;
-
-
+  justify-content: space-between;
+  flex-direction: column;
 }
+
 .nomhebergement h2{
   margin: 0;
 }
@@ -358,6 +302,7 @@ flex-direction: column;
 .nomhebergement p{
   margin-top: 5px;
 }
+
 h3{
   margin-top: 0;
 }
@@ -367,14 +312,13 @@ h3{
 }
 
 /*********>>>>>>>activitésMarseille********/
-
 .Activites{
   width: 100%;
-  height: 150px;
 }
 
 #AMarseille{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
 }
@@ -385,7 +329,6 @@ h3{
   border-radius: 20px 20px 20px 20px;
   box-shadow:6px 6px 6px rgb(0 0 0/ 25%);
   margin-bottom: 20px;
-
 }
 
 .box3M{
@@ -393,7 +336,6 @@ h3{
   height: 400px;
   box-shadow:6px 6px 6px rgb(0 0 0/ 25%);
   border-radius: 20px 20px 20px 20px;
-
 }
 
 .activitesMax img{
@@ -416,7 +358,6 @@ h3{
   padding: 5px 0 5px 40px;
   font-size: 1.3em;
   font-weight: 800;
-
 }
 
 .pour2box{
@@ -424,19 +365,21 @@ h3{
   justify-content: space-between;
 }
 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
 /*********activitéMarseille>>>>>>>>>*******/
+footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color:#efefef ;
+}
+
+.containerFooter{
+  display: block;
+  width: 30%;
+  padding: 30px 50px;
+}
+
+.FInfos{
+  color:#5D6D7E;
+  padding-bottom: 10px; ;
+} 
