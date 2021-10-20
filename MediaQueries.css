@@ -14,7 +14,7 @@
 		margin-bottom: 15px;
 	}
 
-	/*****>>>>>>header**************/
+	/**header**/
 	.inscription
 	{
 		position: absolute;
@@ -23,8 +23,7 @@
 		right:15px;
 	}
 
-	/************header>>>>>>>>**********/
-	/*****>>>>>barre de navigation********/
+	/**barre de navigation**/
 	nav ul
 	{
 		width: 100%;
@@ -87,8 +86,7 @@
 		padding: 8px 10px;
 	}
 
-	/*******barre de navigation>>>>>>>*******/
-	/*****>>>>>les plus populaire****/
+	/**les plus populaire**/
 	.Populaires
 	{
 		width: 100%;
@@ -96,11 +94,16 @@
 
 	.box2
 	{
-		width: 90%;
+		min-width: 400px;
+		width: 100%;
 	}
 
-	/******les plus populaire>>>>****/
-	/**************hebergement à marseille>>>>>>****/
+	.boiteTexte
+	{
+		width: 500px;
+	}
+
+	/**hebergement à marseille**/
 	#AMarseille
 	{
 		display: flex;
@@ -117,6 +120,14 @@
 	.lesbox
 	{
 		flex-direction: column;
+	}
+
+	.box
+	{
+		margin: auto;
+		margin-left: inherit;
+		margin-right: inherit;
+		width: 90%;
 	}
 
 	.box3M
@@ -142,14 +153,12 @@
 		height: 250px;
 	}
 
-	/*******>>>>>footer**************/
+	/**footer**/
 	footer
 	{
 		display: flex;
 		flex-direction: column;
 	}
-
-	/***********footer>>>>>>>>>>*********/
 }
 
 /*ipad max*/
@@ -160,10 +169,17 @@
 		flex-direction: column-reverse;
 	}
 
-	/*******>>>>>les plus populaires********/
+	/**les plus populaires**/
+	.globalbox
+	{
+		max-width: 1024px;
+		display: flex;
+		flex-direction: column;
+	}
+
 	.chambre2 img
 	{
-		width: 130px;
+		width: 400px;
 		height: 150px;
 	}
 
@@ -182,8 +198,8 @@
 
 	.box2
 	{
-		width: 90%;
-		margin: 20px auto;
+		width: 95%;
+		margin-left: 15px;
 	}
 
 	.titreEtLogo
@@ -191,8 +207,7 @@
 		margin-right: 20px;
 	}
 
-	/******les plus populaires>>>>>>>>>******/
-	/******>>>>>>>>hebergement à marseille*****/
+	/**hebergement à marseille**/
 	.Hebergements
 	{
 		width: 100%;
@@ -202,9 +217,9 @@
 
 	.box
 	{
-		width: 90%;
-		margin: auto;
 		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
 	h2
@@ -214,8 +229,7 @@
 		padding-right: 20px;
 	}
 
-	/***hebergement à marseille>>>>>>>*********/
-	/****activité à marseille******/
+	/**activité à marseille**/
 	.Activites
 	{
 		width: 90%;
@@ -235,5 +249,28 @@
 	.box3M
 	{
 		height: 300px;
+	}
+
+	@media all and (max-width: 375px)
+	{
+		/**les plus populaires**/
+		.chambre2 img
+		{
+			width: inherit;
+			max-width: 150px;
+			height: 98%;
+		}
+
+		.box2
+		{
+			min-width: 345px;
+			height: 190px;
+			margin-left: 5px;
+		}
+
+		section
+		{
+			margin-left: inherit;
+		}
 	}
 }
