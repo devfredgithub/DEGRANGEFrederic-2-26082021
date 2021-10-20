@@ -56,7 +56,6 @@
 	nav ul li a
 	{
 		border-bottom: 2px #DEEBFF solid;
-		padding: 0 0 20px 0;
 	}
 
 	.boutonRecherche
@@ -251,7 +250,7 @@
 		height: 300px;
 	}
 
-	@media all and (max-width: 375px)
+	@media all and (max-width: 450px)
 	{
 		/**les plus populaires**/
 		.chambre2 img
