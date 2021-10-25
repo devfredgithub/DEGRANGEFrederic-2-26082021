@@ -24,38 +24,36 @@
 	}
 
 	/**barre de navigation**/
+	nav
+	{
+		width: 100%;
+		margin-top: 15px;
+	}
+
 	nav ul
 	{
 		width: 100%;
 		padding: 0;
 	}
 
-	nav
-	{
-		width: 100%;
-	}
-
 	nav li
 	{
 		width: 50%;
 		text-align: center;
+		border-bottom: 3px solid #f2f2f2;
+		padding-bottom: 20px;
 	}
 
-	nav li a
+	nav li:hover
 	{
-		display: block;
-		width: 100%;
+		border-top: inherit;
+		border-bottom: 1px solid#0065FC;
+		padding-bottom: 20px;
 	}
 
 	nav ul li a:hover
 	{
-		border-bottom: 3px #0065FC solid ;
 		border-top: inherit;
-	}
-
-	nav ul li a
-	{
-		border-bottom: 2px #DEEBFF solid;
 	}
 
 	.boutonRecherche
@@ -93,13 +91,7 @@
 
 	.box2
 	{
-		min-width: 400px;
 		width: 100%;
-	}
-
-	.boiteTexte
-	{
-		width: 500px;
 	}
 
 	/**hebergement à marseille**/
@@ -171,22 +163,15 @@
 	/**les plus populaires**/
 	.globalbox
 	{
-		max-width: 1024px;
 		display: flex;
 		flex-direction: column;
-	}
-
-	.chambre2 img
-	{
-		width: 400px;
-		height: 150px;
 	}
 
 	.Populaires
 	{
 		width: 100%;
 		border-radius:0;
-		margin-left: inherit;
+		margin-left: 0;
 		padding: 0;
 	}
 
@@ -201,11 +186,6 @@
 		margin-left: 15px;
 	}
 
-	.titreEtLogo
-	{
-		margin-right: 20px;
-	}
-
 	/**hebergement à marseille**/
 	.Hebergements
 	{
@@ -217,8 +197,6 @@
 	.box
 	{
 		margin-bottom: 20px;
-		margin-left: 20px;
-		margin-right: 20px;
 	}
 
 	h2
@@ -252,19 +230,21 @@
 
 	@media all and (max-width: 450px)
 	{
+		.zoneRecherche
+		{
+			padding: inherit;
+		}
+
 		/**les plus populaires**/
 		.chambre2 img
 		{
-			width: inherit;
 			max-width: 150px;
 			height: 98%;
 		}
 
 		.box2
 		{
-			min-width: 345px;
 			height: 190px;
-			margin-left: 5px;
 		}
 
 		section

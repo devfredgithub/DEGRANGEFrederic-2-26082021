@@ -350,7 +350,6 @@ main
 	display: block;
 	object-fit: cover;
 	width: 180px;
-	;
 	height: 150px;
 	border-radius: 10px 0 0 10px;
 }
@@ -477,5 +476,4 @@ footer
 {
 	color:#5D6D7E;
 	padding-bottom: 10px;
-	;
 }
