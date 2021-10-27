@@ -251,5 +251,10 @@
 		{
 			margin-left: inherit;
 		}
+
+		.containerFooter
+		{width: 100%;
+
+		}
 	}
 }
