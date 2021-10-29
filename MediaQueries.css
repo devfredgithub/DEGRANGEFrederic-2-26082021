@@ -75,7 +75,6 @@
 	section
 	{
 		margin: 0 auto;
-	
 	}
 
 	.boutonRechercheIcone
@@ -176,8 +175,8 @@
 
 	.box2
 	{
-width: 95%;
-margin: 10px auto;
+		width: 95%;
+		margin: 10px auto;
 	}
 
 	.titreEtLogo
@@ -185,7 +184,6 @@ margin: 10px auto;
 		margin-top: 20px;
 	}
 
-	
 	/**hebergement à marseille**/
 	.Hebergements
 	{
@@ -236,87 +234,140 @@ margin: 10px auto;
 }
 
 @media all and (max-width: 450px)
+{
+	#TitreSite img
 	{
-		.blocRecherche
-		{
-		margin-left: 20px;
-		}
-		section
-		{
-			margin:0 auto;
-		}
-
-		.zoneRecherche
-		{
-			padding: inherit;
-		}
-
-		/**les plus populaires**/
-
-		.chambre2 img
-		{
-			height: 98%;
-		}
-
-		.box2
-		{
-			height: 160px;
-		}
-
-		section
-		{
-			margin-left: inherit;
-		}
-
-		h3{
-			font-size: 15px;
-		}
-
-		/**hebergement**/
-		.Hebergements
-		{
-			padding: initial;
-		}
-
-		.box
-		{
-			margin: 0 auto 20px;
-		}
-
-		/**activité marseille**/
-		.box3
-		{
-			height: 160px;
-		}
-
-		.activitesMax img 
-		{
-			height: 120px;
-		}
-
-		.activites img
-		{
-			height: 120px;
-		}
-
-		.box3M 
-		{
-			height: 160px;
-		}
-
-		.pour2box
-		{
-			height: auto;
-		}
-
-		/**footer**/
-		.containerFooter
-		{
-			width: initial;
-		}
-		.globalbox
-		{
-		width: 90%;	
-		margin: auto;
-		}
+		margin-left: 15px;
 	}
+
+	h1
+	{
+		padding-left: 25px;
+	}
+
+	.blocRecherche
+	{
+		margin-left: 20px;
+	}
+
+	section
+	{
+		margin:0 auto;
+	}
+
+	.zoneRecherche
+	{
+		padding: inherit;
+	}
+
+	p
+	{
+		padding-left: 25px;
+	}
+
+	/**les plus populaires**/
+	.chambre2 img
+	{
+		height: 98%;
+	}
+
+	.box2
+	{
+		height: 160px;
+	}
+
+	section
+	{
+		margin-left: inherit;
+	}
+
+	h3
+	{
+		font-size: 15px;
+	}
+
+	.prixhebergement
+	{
+		padding: 0;
+	}
+
+	.titreEtLogo
+	{
+		margin-left: 15px;
+		margin-right: 25px;
+	}
+
+	/**hebergement**/
+	h2
+	{
+		padding: 38px;
+	}
+
+	.Hebergements
+	{
+		padding: initial;
+	}
+
+	.box
+	{
+		margin: 0 auto 20px;
+	}
+
+	.afficher
+	{
+		padding-left: 25px;
+	}
+
+	/**activité marseille**/
+	.box3
+	{
+		height: 160px;
+	}
+
+	.activitesMax img
+	{
+		height: 120px;
+	}
+
+	.activitesM
+	{
+		font-size: 1.2em;
+	}
+
+	.activites img
+	{
+		height: 120px;
+	}
+
+	#AMarseille
+	{
+		width: 90%;
+	}
+
+	.Activites
+	{
+		padding-left: 35px;
+	}
+
+	.box3M
+	{
+		height: 160px;
+	}
+
+	.pour2box
+	{
+		height: auto;
+	}
+
+	/**footer**/
+	.containerFooter
+	{
+		width: initial;
+	}
+
+	.globalbox
+	{
+		width: 90%;
+		margin: auto;
+	}
+}
